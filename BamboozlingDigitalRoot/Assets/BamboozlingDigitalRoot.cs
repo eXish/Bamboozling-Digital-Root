@@ -74,6 +74,7 @@ public class BamboozlingDigitalRoot : MonoBehaviour {
     void Start () {
       BottunsText[0].text = BDRPBP.Phrases[UnityEngine.Random.Range(0,BDRPBP.Phrases.Count())];
       BottunsText[1].text = BDRPBP.Phrases[UnityEngine.Random.Range(0,BDRPBP.Phrases.Count())];
+      BottunsText[2].text = BDRPBP.Phrases[UnityEngine.Random.Range(0,BDRPBP.Phrases.Count())];
       StartCoroutine(ButtonBullshit());
         fuck = UnityEngine.Random.Range(0,Colors.Count());
         fuck2 = UnityEngine.Random.Range(0,Colors.Count());
